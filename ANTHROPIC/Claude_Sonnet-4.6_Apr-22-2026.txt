@@ -3,11 +3,9 @@ CLAUDE SONNET 4.6 - FULL SYSTEM PROMPT
 User-specific memory contents redacted for privacy.
 All other content is verbatim.
 
-NOTE: Tool function JSON schemas (the formal parameter definitions for bash_tool,
-web_search, create_file, view, str_replace, present_files, etc.) are injected
-separately by the platform and are not part of the text system prompt above.
-They define the API surface Claude uses but are structural metadata rather
-than behavioral instructions.
+Note: Tool function JSON schemas are injected separately by the platform.
+They define Claude's API surface as structural metadata,
+not behavioral instructions, and are not part of the system prompt.
 
 Prompt begins below line.
 =============================================================================
